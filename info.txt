@@ -1,0 +1,10 @@
+composer dump-autoload
+php artisan optimize
+php artisan migrate
+php artisan migrate:rollback --step=1
+
+
+
+----------------------------
+wings and flat in apartment
+`
