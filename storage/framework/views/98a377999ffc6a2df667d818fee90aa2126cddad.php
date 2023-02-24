@@ -36,9 +36,7 @@
     </div>
     <!-- END layout-wrapper -->
 
-    <!-- Right Sidebar -->
-    <?php echo $__env->make('layouts.right-sidebar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-    <!-- /Right-bar -->
+    
 
     <!-- JAVASCRIPT -->
     <?php echo $__env->make('layouts.vendor-scripts', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

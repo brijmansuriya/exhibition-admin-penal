@@ -36,9 +36,9 @@
     </div>
     <!-- END layout-wrapper -->
 
-    <!-- Right Sidebar -->
+    {{-- <!-- Right Sidebar -->
     @include('layouts.right-sidebar')
-    <!-- /Right-bar -->
+    <!-- /Right-bar --> --}}
 
     <!-- JAVASCRIPT -->
     @include('layouts.vendor-scripts')
