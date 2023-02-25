@@ -34,6 +34,15 @@ class HomeController extends Controller
         return abort(404);
     }
 
+   
+    public function view(Request $request,$view)
+    {
+        if (view()->exists('delete.'.$view)) {
+            return view('delete.'.$view);
+        }
+        return abort(404);
+    }
+
     public function root()
     {
         return view('index');

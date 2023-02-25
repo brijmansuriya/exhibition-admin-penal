@@ -4,6 +4,9 @@ php artisan migrate
 php artisan migrate:rollback --step=1
 
 
+---------------------------
+npm run watch
+
 
 ----------------------------
 wings and flat in apartment
